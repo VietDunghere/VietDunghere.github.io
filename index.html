@@ -29,16 +29,16 @@
         header {
             text-align: center;
             padding: 80px 20px;
-            color: white;
+            color: rgb(255, 255, 255);
         }
 
         .profile-img {
             width: 150px;
             height: 150px;
-            border-radius: 50%;
+            border-radius: 100%;
             border: 4px solid white;
             margin-bottom: 20px;
-            background: #ddd;
+            background: #dddddd00;
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -74,17 +74,17 @@
         }
 
         nav a {
-            color: white;
+            color: rgb(255, 255, 255);
             text-decoration: none;
             padding: 10px 25px;
-            border: 2px solid white;
-            border-radius: 25px;
+            border: 2px solid rgb(237, 91, 12);
+            border-radius: 1000px;
             transition: all 0.3s ease;
         }
 
         nav a:hover {
-            background: white;
-            color: #667eea;
+            background: rgb(237, 91, 12);
+            color: rgb(255, 255, 255);
         }
 
         /* Sections */
@@ -224,14 +224,23 @@
                 font-size: 0.9rem;
             }
         }
+
+        body {
+            background-image: url("cover2.jpg");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: scroll;
+            background-size: cover;
+        }
     </style>
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="profile-img"><img src = "charliekirk.jpg"></div>
+
         <h1>Phan Nguyen Viet Dung</h1>
-        <p>Developer | Student | Tech Enthusiast</p>
+        <p>AI Engineer | Student | Reels Instagram Expert</p>
         <nav>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -244,8 +253,8 @@
         <!-- About Section -->
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Viet Dung, a passionate developer who loves building things with code. 
-               I enjoy learning new technologies and solving problems through programming. 
+            <p>Hello! I'm Viet Dung, a passionate AI engineer who loves building models. 
+               I enjoy learning new technologies and solving problems through programming and I love vibecode (100% AI, 0% human). 
                Welcome to my personal portfolio where I showcase my projects and skills.</p>
         </section>
 
@@ -257,6 +266,8 @@
                 <div class="skill-item">Java</div>
                 <div class="skill-item">Python</div>
                 <div class="skill-item">Git</div>
+                <div class="skill-item">AI Agents</div>
+                <div class="skill-item">ML/DL</div>
             </div>
         </section>
 
@@ -265,8 +276,8 @@
             <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>A brief description of your first project. Explain what it does and what technologies you used.</p>
+                    <h3>Low resource languages Translation</h3>
+                    <p>A low resource models for Machine Translation</p>
                     <a href="#" class="project-link">View Project →</a>
                 </div>
                 <div class="project-card">
