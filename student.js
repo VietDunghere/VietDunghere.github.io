@@ -66,10 +66,8 @@ function hienThiBang() {
 }
 
 function xoaSinhVien(viTri) {
-    if (confirm("Bạn có chắc muốn xóa sinh viên này?")) {
         danhSachSV.splice(viTri, 1);
         hienThiBang();
-    }
 }
 
 function xoaForm() {
